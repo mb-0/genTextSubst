@@ -57,8 +57,9 @@ function c_build {
    IFS=$'\n'
    for line in `cat "$1"`; do 
        key=`echo $line | sed "s#$delimeter.*##"`; val=`echo $line | sed "s#.*$delimeter##"`
-       c_check $key || notes="$notes\nkey $key has delimter $delimeter found, can be a problem\n"
-       c_check $val || notes="$notes\nvalue $val has delimeter $delimeter found, can be a problem\n"
+       c_check "$key" #|| notes="$notes\nkey $key has delimter $delimeter found, can be a problem\n"
+       c_check "$val" #|| notes="$notes\nvalue $val has delimeter $delimeter found, can be a problem\n"
+       c_filter "$key" || continue
 
        res="$res
          <dict>
@@ -66,17 +67,19 @@ function c_build {
                  <string>$val</string>
                  <key>shortcut</key>
                  <string>$key</string>
-         </dict>
-"
+         </dict>"
 
    done
    IFS=$prefivs
-   c_notes
+   c_notes "$notes"
 }
 
 function c_check { 
-   if [[ `echo "$1" |grep $delimeter` != "" ]]; then notes="$notes\nkey/value $1 has delimter $delimeter found, can be a problem\n"; fi; 
-   ### TODO - we will need to validate XML safe chars: < > in key / value not to break .plist interpreter on mac ;)
+   if [[ `echo "$1" |grep $delimeter` != "" ]]; then notes="${notes}\n     (i) key/value $1 has delimter $delimeter found, can be a problem..."; return 1; fi
+}
+
+function c_filter {
+   if [[ `echo "$1"` != `echo "$1" |sed 's# ##g'` ]]; then notes="${notes}\n     (i) $1 has space in that, Apple will filter this anyway, skipping..."; return 1;fi
 }
 
 function c_notes { if [[ "$1" == "" ]]; then notes="none, all good"; fi; }
@@ -93,16 +96,16 @@ dbg_chk=`echo $1 $2 $3 $4 | tr A-Z a-z`
 if [[ `echo "$dbg_chk" |grep -i " debug"` != "" ]]; then debug=on; fi
 
 ### kick it
-echo -ne " * Yo `basename $0`\n\n   Using $1 as our input file.\n   Using: $out as output file.\n   Looking for $delimeter as our delimeter\n\n ? Ready (3 secs to CTRL+C)\n\n"
+echo -ne " [+] Yo `basename $0`\n     Input: $1\n     Output: $out\n     Delimeter set: $delimeter\n\n [+] Kicking it..."
 
 c_top && out_top="$res"		|| err "Building plist heading has failed"
 c_build "$in" && out_mid="$res"	|| err "Constructing lines based on file is failing"
 c_end && out_end="$res"		|| err "Building plist end piece has failed"
 
-confirm=" * Completed: $out is out"
-dbg "$out_top $out_mid $out_end" && confirm=" * Debug more, no writing to $out" || put_out "$out_top $out_mid $out_end"
+confirm=" [+] Completed: $out is out"
+dbg "$out_top $out_mid $out_end" && confirm=" [+] Debug more, no writing to $out" || put_out "$out_top $out_mid $out_end"
 
-echo -ne "$confirm\n * Notes: $notes\nBye.\n\n"
+echo -ne "\n$confirm\n [-] Notes: $notes\n\n \o/ kthxbye.\n\n"
 
 ### kthxbye
 exit 0

@@ -63,9 +63,5 @@ Options:
 ./generate_text_subtitutions_plist <filename>.csv "/" dat debug
 - use / as delimeter, would output to a .dat file, if debug weren't added (no write, just print out).
 
-
 There's a few validation options where keys / values with multiple delimeters will be higlighted as warnings, but no XML validation is happening, .e.g characters that can break XML will break this one too. Caution with < > and alike please.
-
-
-
-
+Also filtering shorts with spaces in them.
