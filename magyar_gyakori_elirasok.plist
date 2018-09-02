@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array> 
+         <dict>
+                 <key>phrase</key>
+                 <string>addig</string>
+                 <key>shortcut</key>
+                 <string>adig</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>eddig</string>
+                 <key>shortcut</key>
+                 <string>edig</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>akkumulátor</string>
+                 <key>shortcut</key>
+                 <string>akkumlátor</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>akkumulátor</string>
+                 <key>shortcut</key>
+                 <string>akumulátor</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>akkumulátor</string>
+                 <key>shortcut</key>
+                 <string>akumlátor</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>alatt</string>
+                 <key>shortcut</key>
+                 <string>alat</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ambiciózus</string>
+                 <key>shortcut</key>
+                 <string>ambíciózus</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>amikor is</string>
+                 <key>shortcut</key>
+                 <string>amikoris</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>aminosav</string>
+                 <key>shortcut</key>
+                 <string>aminósav</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>antenna</string>
+                 <key>shortcut</key>
+                 <string>anterna</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>archív</string>
+                 <key>shortcut</key>
+                 <string>archiv</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ártatlanság vélelme</string>
+                 <key>shortcut</key>
+                 <string>ártatlanság védelme</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>azt</string>
+                 <key>shortcut</key>
+                 <string>aszt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>atoll</string>
+                 <key>shortcut</key>
+                 <string>atol</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>attól</string>
+                 <key>shortcut</key>
+                 <string>attol</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>audiencia</string>
+                 <key>shortcut</key>
+                 <string>audencia</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>autogram</string>
+                 <key>shortcut</key>
+                 <string>autógramm</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>automata</string>
+                 <key>shortcut</key>
+                 <string>autómata</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>automatikus</string>
+                 <key>shortcut</key>
+                 <string>autómatikus</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>aszimetrikus</string>
+                 <key>shortcut</key>
+                 <string>asszimetrikus</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>amellett</string>
+                 <key>shortcut</key>
+                 <string>az mellett</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>amiatt</string>
+                 <key>shortcut</key>
+                 <string>az miatt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>bábu</string>
+                 <key>shortcut</key>
+                 <string>bábú</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>bakancs</string>
+                 <key>shortcut</key>
+                 <string>bakkancs</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>barikád</string>
+                 <key>shortcut</key>
+                 <string>barrikád</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>báty</string>
+                 <key>shortcut</key>
+                 <string>bátty</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>beljebb</string>
+                 <key>shortcut</key>
+                 <string>bejjebb</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>bent</string>
+                 <key>shortcut</key>
+                 <string>bennt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>benzin</string>
+                 <key>shortcut</key>
+                 <string>berzin</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>bicikli</string>
+                 <key>shortcut</key>
+                 <string>bicigli</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>biztos</string>
+                 <key>shortcut</key>
+                 <string>bisztos</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>bizottság</string>
+                 <key>shortcut</key>
+                 <string>bizotság</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>biztat</string>
+                 <key>shortcut</key>
+                 <string>bíztat</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>bója</string>
+                 <key>shortcut</key>
+                 <string>bólya</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>böjt</string>
+                 <key>shortcut</key>
+                 <string>bőjt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>bujdosó</string>
+                 <key>shortcut</key>
+                 <string>bújdosó</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>bolgár</string>
+                 <key>shortcut</key>
+                 <string>bulgár</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>cellulóz</string>
+                 <key>shortcut</key>
+                 <string>celulóz</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>centríroz</string>
+                 <key>shortcut</key>
+                 <string>centíroz</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>centrírozás</string>
+                 <key>shortcut</key>
+                 <string>centírozás</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>címke</string>
+                 <key>shortcut</key>
+                 <string>cimke</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>cukrászda</string>
+                 <key>shortcut</key>
+                 <string>cukrázda</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>cubák</string>
+                 <key>shortcut</key>
+                 <string>cupák</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>curriculum vitae</string>
+                 <key>shortcut</key>
+                 <string>Curiculum Vitae</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>curriculum vitae</string>
+                 <key>shortcut</key>
+                 <string>Curicullum Vitae</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>cannes-i filmfesztivál</string>
+                 <key>shortcut</key>
+                 <string>Cannes-i Filmfesztivál</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>díjat</string>
+                 <key>shortcut</key>
+                 <string>díjjat</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>déjà vu</string>
+                 <key>shortcut</key>
+                 <string>dezsavű</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>déjà vu</string>
+                 <key>shortcut</key>
+                 <string>déjá vu</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>dicsér</string>
+                 <key>shortcut</key>
+                 <string>dícsér</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>diktatórikus</string>
+                 <key>shortcut</key>
+                 <string>diktatorikus</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>egybeír</string>
+                 <key>shortcut</key>
+                 <string>egybe ír</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>egészség</string>
+                 <key>shortcut</key>
+                 <string>egésség</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>együtt</string>
+                 <key>shortcut</key>
+                 <string>eggyüt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>együtt</string>
+                 <key>shortcut</key>
+                 <string>eggyütt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>együtt</string>
+                 <key>shortcut</key>
+                 <string>együt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ellen</string>
+                 <key>shortcut</key>
+                 <string>elen</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ellenfél</string>
+                 <key>shortcut</key>
+                 <string>elenfél</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ellenség</string>
+                 <key>shortcut</key>
+                 <string>elenség</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ellenére</string>
+                 <key>shortcut</key>
+                 <string>elenére</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>elhunyt</string>
+                 <key>shortcut</key>
+                 <string>elhúnyt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>elem</string>
+                 <key>shortcut</key>
+                 <string>ellem</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>elöl</string>
+                 <key>shortcut</key>
+                 <string>elől</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>enyéim</string>
+                 <key>shortcut</key>
+                 <string>enyémek</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>enyém</string>
+                 <key>shortcut</key>
+                 <string>enyimé</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>emellett</string>
+                 <key>shortcut</key>
+                 <string>ez mellett</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>emiatt</string>
+                 <key>shortcut</key>
+                 <string>ez miatt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>feminin</string>
+                 <key>shortcut</key>
+                 <string>feminim</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>fent</string>
+                 <key>shortcut</key>
+                 <string>fennt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>fiuk</string>
+                 <key>shortcut</key>
+                 <string>fiúk</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>fiunk</string>
+                 <key>shortcut</key>
+                 <string>fiúnk</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>folyjon</string>
+                 <key>shortcut</key>
+                 <string>follyon</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>fojtás</string>
+                 <key>shortcut</key>
+                 <string>folytás</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>fojtani</string>
+                 <key>shortcut</key>
+                 <string>folytani</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>fojtottam</string>
+                 <key>shortcut</key>
+                 <string>folytottam</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>fojtotta</string>
+                 <key>shortcut</key>
+                 <string>folytotta</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>folyatta</string>
+                 <key>shortcut</key>
+                 <string>fojatta</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>forradalom</string>
+                 <key>shortcut</key>
+                 <string>foradalom</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>forduljanak</string>
+                 <key>shortcut</key>
+                 <string>forduljonak</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>főképp</string>
+                 <key>shortcut</key>
+                 <string>főkép</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>futball</string>
+                 <key>shortcut</key>
+                 <string>futbal</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>frissesség</string>
+                 <key>shortcut</key>
+                 <string>frisseség</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>gargarizál</string>
+                 <key>shortcut</key>
+                 <string>gargalizál</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>gemkapocs</string>
+                 <key>shortcut</key>
+                 <string>gémkapocs</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>gleccser</string>
+                 <key>shortcut</key>
+                 <string>glecser</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>hagyjuk</string>
+                 <key>shortcut</key>
+                 <string>haggyuk</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>hátul</string>
+                 <key>shortcut</key>
+                 <string>hátúl</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>hegesztő</string>
+                 <key>shortcut</key>
+                 <string>heggesztő</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>helyezett</string>
+                 <key>shortcut</key>
+                 <string>helyezet</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>higgy</string>
+                 <key>shortcut</key>
+                 <string>higyj</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>higgyed</string>
+                 <key>shortcut</key>
+                 <string>higyjed</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>hirdetés</string>
+                 <key>shortcut</key>
+                 <string>hírdetés</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>hologram</string>
+                 <key>shortcut</key>
+                 <string>hologramm</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>hosszú</string>
+                 <key>shortcut</key>
+                 <string>hoszú</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>hosszú</string>
+                 <key>shortcut</key>
+                 <string>hoszu</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ilyen</string>
+                 <key>shortcut</key>
+                 <string>ien</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ígér</string>
+                 <key>shortcut</key>
+                 <string>igér</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>megígér</string>
+                 <key>shortcut</key>
+                 <string>megigér</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ilyen</string>
+                 <key>shortcut</key>
+                 <string>ijen</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>intelligencia</string>
+                 <key>shortcut</key>
+                 <string>inteligencia</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>intelligens</string>
+                 <key>shortcut</key>
+                 <string>inteligens</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>írd</string>
+                 <key>shortcut</key>
+                 <string>írdd</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>irigy</string>
+                 <key>shortcut</key>
+                 <string>irígy</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ijed</string>
+                 <key>shortcut</key>
+                 <string>íjed</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>irtani</string>
+                 <key>shortcut</key>
+                 <string>írtani</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>irt</string>
+                 <key>shortcut</key>
+                 <string>írt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>ismertté</string>
+                 <key>shortcut</key>
+                 <string>ismerté</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>jegygyűrű</string>
+                 <key>shortcut</key>
+                 <string>jeggyűrű</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>jellemző</string>
+                 <key>shortcut</key>
+                 <string>jelemző</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>jó barát</string>
+                 <key>shortcut</key>
+                 <string>jóbarát</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>jó éjt</string>
+                 <key>shortcut</key>
+                 <string>jóéjt</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>jössz</string>
+                 <key>shortcut</key>
+                 <string>jösz</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>jöttök</string>
+                 <key>shortcut</key>
+                 <string>jösztök</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kalcium</string>
+                 <key>shortcut</key>
+                 <string>kálcium</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kapiskál</string>
+                 <key>shortcut</key>
+                 <string>kapizsgál</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kapiskálod</string>
+                 <key>shortcut</key>
+                 <string>kapizsgálod</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kapiskálja</string>
+                 <key>shortcut</key>
+                 <string>kapizskálja</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kaució</string>
+                 <key>shortcut</key>
+                 <string>kaukció</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>készpénz</string>
+                 <key>shortcut</key>
+                 <string>kézpénz</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kijjebb</string>
+                 <key>shortcut</key>
+                 <string>kijeb</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kijjebb</string>
+                 <key>shortcut</key>
+                 <string>kiljebb</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kijjebb</string>
+                 <key>shortcut</key>
+                 <string>kíjebb</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kijjebb</string>
+                 <key>shortcut</key>
+                 <string>kíjjebb</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kilométer</string>
+                 <key>shortcut</key>
+                 <string>kilóméter</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kisebb</string>
+                 <key>shortcut</key>
+                 <string>kissebb</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kisebbség</string>
+                 <key>shortcut</key>
+                 <string>kissebbség</string>
+         </dict>
+
+         <dict>
+                 <key>phrase</key>
+                 <string>kísér</string>
+                 <key>shortcut</key>
+                 <string>kisér</string>
+         </dict>
+ </array>
+</plist>
