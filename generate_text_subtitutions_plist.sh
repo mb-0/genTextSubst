@@ -60,6 +60,7 @@ function c_build {
        c_check "$key" #|| notes="$notes\nkey $key has delimter $delimeter found, can be a problem\n"
        c_check "$val" #|| notes="$notes\nvalue $val has delimeter $delimeter found, can be a problem\n"
        c_filter "$key" || continue
+       c_fixunsafe "$key" "$val" || err "Unsafe character in line starting with $key - cannot fix it. This will break the plist anyway, please amend."
 
        res="$res
          <dict>
@@ -82,6 +83,15 @@ function c_filter {
    if [[ `echo "$1" |grep "^#"` != "" ]]; then notes="${notes}\n     (i) skipping comment $1"; return 1; fi
    if [[ `echo "$1"` != `echo "$1" |sed 's# ##g'` ]]; then notes="${notes}\n     (i) $1 has space in that, Apple will filter this anyway, skipping..."; return 1;fi
 }
+
+function c_fixunsafe {
+   if [[ `echo "$1" |grep "&" |grep -v "&amp;"` != "" ]] || [[ `echo "$2" |grep "&" |grep -v "&amp;"` != "" ]]; then 
+      key=`echo "$1" |sed 's#&#&amp;#g'`; 
+      val=`echo "$2" |sed 's#&#&amp;#g'`; 
+      notes="${notes}\n     (i) fixed &amp for XML parsing for $1"
+   fi
+}
+
 
 function c_notes { if [[ "$1" == "" ]]; then notes="none, all good"; fi; }
 function put_out { echo "$1" > $out || err "Failed writing content to $out"; }  
