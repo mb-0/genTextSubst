@@ -81,7 +81,6 @@ function c_check {
 function c_filter {
    if [[ `echo "$1" |grep "^#"` != "" ]]; then notes="${notes}\n     (i) skipping comment $1"; return 1; fi
    if [[ `echo "$1"` != `echo "$1" |sed 's# ##g'` ]]; then notes="${notes}\n     (i) $1 has space in that, Apple will filter this anyway, skipping..."; return 1;fi
-   if [[ `echo "$1" | sed 's# ##g'` == "" ]]; then notes="${notes}\n     (i) skipping empty line..."; return 1; fi
 }
 
 function c_notes { if [[ "$1" == "" ]]; then notes="none, all good"; fi; }
